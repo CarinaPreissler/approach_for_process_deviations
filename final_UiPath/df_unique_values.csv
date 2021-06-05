@@ -1,0 +1,11 @@
+,document_type,item_type,input0,input1,input2,input3,input4,input5,input6,output
+0,Framework order,Consignment,Create Purchase Order Item,-,-,-,-,-,-,Change Quantity
+1,Standard PO,Service,Create Purchase Requisition Item,Change Quantity,Receive Order Confirmation,Record Goods Receipt,Clear Invoice,Clear Invoice,Clear Invoice,Clear Invoice
+2,,Standard,,Create Purchase Order Item,Record Goods Receipt,Record Invoice Receipt,Record Invoice Receipt,Record Invoice Receipt,,Create Purchase Order Item
+3,,Subcontracting,,Delete Purchase Order Item,Record Invoice Receipt,Vendor creates invoice,Remove Payment Block,Remove Payment Block,,Delete Purchase Order Item
+4,,Third-party,,Receive Order Confirmation,Vendor creates invoice,,Vendor creates invoice,,,Process End
+5,,,,Record Goods Receipt,,,,,,Receive Order Confirmation
+6,,,,Vendor creates invoice,,,,,,Record Goods Receipt
+7,,,,,,,,,,Record Invoice Receipt
+8,,,,,,,,,,Remove Payment Block
+9,,,,,,,,,,Vendor creates invoice
